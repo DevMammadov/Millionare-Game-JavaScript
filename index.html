@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8"></meta>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="css/phone.css">
+	<script type="text/javascript" src="script.js"></script>
+</head>
+<body onload ="init(event)" >
+
+
+<video autoplay muted loop id="myVideo">
+    <source src="videoplayback.mp4" type="video/mp4">
+</video>
+
+
+  <div id="content">
+
+
+  	  <div id="startDiv">
+
+  	  			<img src="icons/logo.png" />
+
+  	  			<div id="resultDiv"> 
+  	  				<span></span> <label></label> 
+  	  				<p> <button onclick="location.reload();">Yenidən oyna</button> </p>
+  	  			</div>
+
+      </div>
+
+  	  <div id="LeftDiv">
+							<div class="helpDiv"  id="helpDiv">
+									<div class="help" id="auditoria"> <img  id="auditoria" src="icons/people.png"> </div>
+									<div class="help" id="fifti"> 50/50 </div>
+									<div class="help" id="friend" > <img id="friend" src="icons/phone.png"> </div>
+							</div>
+
+
+							<div class="friendDiv">
+									<img id="friendImg"/> 
+									<div class="friendMind"></div>
+							</div>
+
+							<div id="auditoriaDiv">
+										<div class="prosentVariant">
+												<div >D </div>
+												<div >C </div>
+												<div >B </div>
+												<div >A </div>
+										</div>
+										
+										<div class="prosents">
+												<div class="prosentInterval" title="D" id="intervalD" style=""></div> 
+												<div class="prosentInterval" title="C" id="intervalC" style=""></div>  
+												<div class="prosentInterval" title="B" id="intervalB" style=""></div> 
+												<div class="prosentInterval" title="A" id="intervalA" style=""></div> 
+										</div>
+
+										<div class="prosentsN">
+											<div id="prosentND">   </div>
+											<div id="prosentNC">   </div>
+											<div id="prosentNB">   </div>
+											<div id="prosentNA">   </div>
+										</div> 
+							</div>
+
+							<div id="questTimer">
+								<span></span>
+							</div>
+						
+
+						<div id="suallar">
+							<div id="question"></div>
+							<div id='variants'>
+							<div class="variant" id="A"></div>
+							<div class="variant" id="B"></div>
+							<div class="variant" id="C"></div>
+							<div class="variant" id="D"></div>
+							</div>
+					</div>
+      </div>
+
+
+
+
+
+  		<div id="rightDiv">
+  			<div class="bonusHead"> Bonuslar </div>
+  			<div class="bonus">1000 000</div>
+  			<div class="bonus">800 000</div>
+  			<div class="bonus">400 000</div>
+  			<div class="bonus">200 000</div>
+  			<div class="bonus">100 000</div>
+  			<div class="bonus">50 000</div>
+  			<div class="bonus">25 000</div>
+  			<div class="bonus">15 000</div>
+  			<div class="bonus">10 000</div>
+  			<div class="bonus">5000</div>
+  			<div class="bonus">3000</div>
+  			<div class="bonus">2000</div>
+  			<div class="bonus Mybonus">1000</div>
+  		</div>
+
+  </div>
+
+
+<iframe  allow="autoplay" loop='true' style="display:none" id="iframeAudio"></iframe> 
+</body>
+</html>

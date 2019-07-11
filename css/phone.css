@@ -1,0 +1,224 @@
+@media (min-width: 320px) and (max-width: 480px) {
+
+    html,body,#content,#LeftDiv{
+        overflow: hidden;
+        height: 100vh;
+    }
+    body{
+        background-size: auto;
+        background-position: 50% 0%;
+    }
+    
+    #content{
+         width: 100%;
+         margin-left: 0px;
+    }
+    #LeftDiv{
+        width: 100%;
+        
+    }
+
+    #questTimer{
+        height: 55px;
+        width: 55px;
+        font-size: 22px;
+        margin-left: 5px;
+        line-height: 55px;
+    }
+
+    #suallar{
+        width: 100%;
+        margin-top: 290px;
+    }
+
+
+    #question{
+        width:100%;
+        max-height: 30px;
+        font-size: 15px;
+        border-width: 2px;
+        border-radius: 10px;
+    }
+    #variants{
+        width:100%;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .variant{
+        height: 20px;
+        width: 80%;
+        margin-top: 5px; 
+        border-width: 2px;
+        border-radius: 10px;
+    }
+
+/* ---- Help section desgin -------------------------------- */
+
+    .helpDiv{
+        margin-right: 10px;
+        margin-top: 5px;
+    }
+
+    .help{
+        border-width: 2px;
+        margin-left: 5px;
+        width: 45px;
+        height: 30px;
+        font-size: 13px;
+    }
+
+    .help img{
+        height: 20px; 
+        width:  20px;
+    }
+
+    /* ---- friend div desgin -------------------------------- */
+
+    .friendDiv{
+        height: 150px;
+        width: 95%;
+        margin: 0 10px;
+        margin-top: 110px;
+        box-sizing: border-box;
+        border-width: 2px;
+    }
+    .friendDiv img{
+        width: 20%;
+        object-fit: contain;
+        margin-left: 10px;
+        position: relative;
+        bottom:0;
+    }
+    .friendMind{
+        width: 80%;
+        font-size: 12px;
+        font-weight: bold;
+        margin-left: 0;
+        padding-left: 5px;
+        padding-top: 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        box-sizing: border-box;
+    }
+
+    /* ---- auditoria div desgin -------------------------------- */
+
+
+    #auditoriaDiv{
+        height: 180px;
+        width: 230px;
+        position: relative;
+        margin-left:0;
+        float: right; 
+        margin-top: 40px; 
+        margin-top: 40px;
+    }
+
+    .prosents{
+        height: 130px;
+        margin-top: 30px;
+    }
+    
+    .prosentInterval{
+        width: 40px;
+        float: left;
+        height: 130px;
+        margin-left: 5px;
+        height: 1px;
+    }
+
+    .prosentVariant div{
+        width: 40px;
+        height: 30px;
+        font-size: 14px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .prosentsN{
+        display: none;
+    }
+
+    .prosentsN div{
+        display: none;
+    }
+
+    #startDiv{
+        width: 90%;
+        height: auto;
+        margin-left: 10px;
+        text-align: center;
+    }
+
+    #startDiv img{
+        height: 200px;
+        width: 150px;
+        object-fit: contain;
+        margin: 0 auto;
+        margin-top: 10px;
+    }
+
+    #resultDiv{
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+        font-size: 18px;
+        box-sizing: border-box;
+        border-left: 3px solid #fff;
+        border-right:3px solid #fff;
+    }
+
+    #resultDiv button{
+        height: 30px;
+        font-size: 15px;
+        width: 100px;
+        cursor: pointer;
+        color: rgba(6,10,109,1);
+        font-weight: bold;
+    }
+
+
+
+
+    #rightDiv{
+      position: absolute;
+      margin-left: 160px;
+      top: 50px;
+      width: 160px;
+      height: 230px;
+      background:rgba(255, 255, 255, 0.226);
+      display: none!important;    /* If dont using phone js  */
+      flex-wrap: wrap;
+      
+    }
+    .bonus{
+        width: 78px;
+        height: 26px;
+        line-height: 10px;
+        margin-top: 1px;
+        font-size: 13px;
+        border: 1px solid rgba(255, 255, 255, 0.288);
+        box-sizing: border-box;
+    }
+
+    #rightDiv div:nth-child(14){
+        width: 100%;
+    }
+
+    .bonusHead{
+        width: 100%;
+        height: 15px;
+        font-size: 20px;
+        color: white;
+        text-align: center;
+         
+    }
+
+
+    video{
+        display: none;
+    }
+
+}
